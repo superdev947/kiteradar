@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:colorPrimary">#2275FF</item>
+        <item name="android:colorAccent">#2275FF</item>
+        <item name="android:colorPrimaryDark">#2275FF</item>
+        <item name="android:datePickerDialogTheme">@style/AppTheme.DialogTheme</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#2275FF</item>
+    </style>
+
+    <style name="AppTheme.DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#000000</item>
+        <item name="android:colorPrimary">#2275FF</item>
+        <item name="android:colorAccent">#2275FF</item>
+        <item name="android:colorPrimaryDark">#2275FF</item>
+        <item name="colorAccent">#2275FF</item>
+    </style>
+
+
+    <!-- Item selected font. -->
+    <style name="SpinnerItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">Montserrat-Bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Dropdown options font. -->
+    <style name="SpinnerDropDownItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">Montserrat-Bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+</resources>
